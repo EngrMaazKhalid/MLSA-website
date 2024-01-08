@@ -4,13 +4,13 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import classes from './Footer.module.css'
+import classes from './bar.module.css'
 import Container from '@mui/material/Container';
 
 import Button from '@mui/material/Button';
 
 import Image from 'next/image';
-// import AdbIcon from '@mui/icons-material/Adb';
+
 import mlsa from '../../../public/Assets/Photos/mlsa-logo.png'
 const pages = ['Home', 'Events', 'About Us', 'Contact'];
 
@@ -35,9 +35,9 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor:'#0a2947'}}>
-      <Container maxWidth="xl" sx={{backgroundColor:'#0a2947'}}>
-        <Toolbar disableGutters sx={{display: 'flex', justifyContent:'space-between', paddingLeft:'2rem', paddingRight:'3rem'}}>
+    <AppBar position="static" sx={{backgroundColor:'#01101F'}}>
+      <Container className={classes['container']} maxWidth="xl" sx={{backgroundColor:'#0a2947'}}>
+        <Toolbar disableGutters className={classes['bar']} sx={{display: 'flex', justifyContent:'space-between', paddingLeft:'2rem', paddingRight:'3rem'}}>
     <Image
 
           className={classes['img']}
@@ -89,6 +89,7 @@ function ResponsiveAppBar() {
           <Box sx={{ display:'flex' , flexDirection:'row' , justifyContent:'space-between' }}       >
             {pages.map((page) => (
               <Button
+              className={classes['button']}
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: '#e1effd', marginLeft:"1rem" , display: 'block', fontSize:'1.5rem', fontWeight:'500' }}

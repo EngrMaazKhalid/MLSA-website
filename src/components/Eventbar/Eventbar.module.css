@@ -1,0 +1,63 @@
+.Eventbar{
+    height: 100%;
+    margin: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.Upper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.heading{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #55B4F3;
+}
+
+.desc{
+    font-size: 1.9rem;
+    font-weight: 400;
+
+}
+
+.see-btn{
+    background: #0B3253;
+    border: 2px solid #55B4F3;
+    padding: 8px 20px 8px 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all .5s ;
+    border-radius: 21px;
+    color: #55B4F3;
+}
+
+.see-btn:hover{
+    background-color: #55B4F3;
+    color: #0B3253;
+}
+.Card-sec{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row;
+}
+.btn{
+    background: #0B3253;
+    border: 2px solid #55B4F3;
+    padding: 8px 20px 8px 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all .5s ;
+    border-radius: 6px;
+    color: white;
+}
+.btn:hover{
+    background: #55B4F3;
+    color: #0B3253;
+}

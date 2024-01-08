@@ -26,7 +26,8 @@ body {
 }
 body {
   color: #e1effd;
-  background: #0a2947;
+  background:  #010E1B;
+  
   font-family: "Poppins", sans-serif;
  
 }
@@ -47,6 +48,13 @@ html{
   html{
      
       font-size: 46%;
+  } 
+}
+@media only screen and (max-width:460px){ 
+  /* //900px */
+  html{
+     
+      font-size: 40%;
   } 
 }
 

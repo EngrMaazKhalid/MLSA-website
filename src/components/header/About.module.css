@@ -1,0 +1,31 @@
+.About{
+    height: 80vh;
+}
+.About-div{
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+.About-img{
+    display: block!important; 
+    flex: 0 0 auto;
+    width: 50%;
+}
+.img{
+
+}
+.About-main{
+    display: block!important; 
+    flex: 0 0 auto;
+    width: 50%;
+}
+.About-heading{
+
+}
+.About-des{
+
+}
+.About-btn{
+
+}

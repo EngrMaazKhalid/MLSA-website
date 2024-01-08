@@ -33,6 +33,9 @@ return(
               </Button>
             ))}
           </Box>
+       
+
+
 </div>
 <div className={classes['social']}>
 <FacebookIcon sx={{ fontSize:'3.5rem' ,  color:'#55b4f3', cursor:'pointer'}} />
@@ -45,11 +48,12 @@ return(
 <hr className={classes['line']}></hr>
 </div>
 <div className={classes['Lower']}>
+
 <div className={classes['Lower-link']}>
 
-<a>Privacy Policy</a>
-<a>Terms of Services</a>
-<a>Cookie Settings</a>
+<a className={classes['link']}>Privacy Policy</a>
+<a className={classes['link']}>Terms of Services</a>
+<a className={classes['link']}>Cookie Settings</a>
 </div>
 </div>
     </div>

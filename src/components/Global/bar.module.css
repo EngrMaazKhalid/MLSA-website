@@ -1,0 +1,28 @@
+.img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 7rem;
+    
+    width: auto;
+}
+.button{
+font-weight: 700;
+}
+
+@media  (max-width:850px) {
+
+.bar{
+padding-left: 0;
+padding-right: 0;
+}
+.button{
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.3rem;
+}
+.container{
+    padding-left: 1.6rem;
+    padding-right: 1.4rem;
+}
+}

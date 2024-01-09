@@ -6,6 +6,7 @@ import Header from "@/components/header/header";
 import About from "@/components/About/About";
 import Eventbar from "@/components/Eventbar/Eventbar";
 import Vision from "@/components/Vision/Vision";
+import Offer from "@/components/offer/Offer";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <About />
     <Eventbar />
     <Vision />
+    <Offer />
     <Footer />
   </main>
   )

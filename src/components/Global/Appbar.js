@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar position="static" sx={{backgroundColor:'#01101F'}}>
-      <Container className={classes['container']} maxWidth="xl" sx={{backgroundColor:'#0a2947'}}>
+      <Container className={classes['container']} maxWidth="xl" sx={{backgroundColor:'#021529'}}>
         <Toolbar disableGutters className={classes['bar']} sx={{display: 'flex', justifyContent:'space-between', paddingLeft:'2rem', paddingRight:'3rem'}}>
     <Image
 

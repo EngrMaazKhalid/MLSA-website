@@ -5,6 +5,7 @@ import Header from "@/components/header/header";
 
 import About from "@/components/About/About";
 import Eventbar from "@/components/Eventbar/Eventbar";
+import Vision from "@/components/Vision/Vision";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <Header />
     <About />
     <Eventbar />
+    <Vision />
     <Footer />
   </main>
   )

@@ -1,6 +1,6 @@
 .Eventbar{
     height: 100%;
-    margin: 4rem 6rem;
+    margin: 8rem 6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,6 +47,10 @@
     gap: 1rem;
     flex-direction: row;
 }
+
+.card{
+    width: 30%;
+}
 .btn{
     background: #0B3253;
     border: 2px solid #55B4F3;
@@ -60,4 +64,47 @@
 .btn:hover{
     background: #55B4F3;
     color: #0B3253;
+}
+
+@media (max-width: 992px){
+    .Eventbar{
+        margin-top: 6rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .Upper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Upper-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .desc{
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .Card-sec{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .card{
+        width: 60%;
+    }
+
+}
+@media (max-width: 720px){
+.card{
+    width: 80%;
+}
+}
+@media (max-width: 420px){
+.card{
+    width: 100%;
+}
 }

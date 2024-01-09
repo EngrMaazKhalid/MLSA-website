@@ -1,5 +1,6 @@
 .About{
-    height: 90vh;
+    height: 100%;
+    margin-bottom: 8rem;
 }
 .About-div{
     display: flex;
@@ -70,6 +71,9 @@ font-size: 3.6rem;
 }
 
 @media (max-width: 992px){
+    .About{
+        height: 100%;
+    }
     .About-div{
         flex-direction: column-reverse;
         gap: 2rem;

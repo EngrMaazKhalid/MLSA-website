@@ -4,7 +4,7 @@ import classes from './Team.module.css'
 import Image from 'next/image'
 import Picture1 from '../../../public/Assets/Photos/Picture1.png'
 import img from './images.png'
-
+import hamza from './hamzaaa.jpg'
 
 
 export default function Team() {
@@ -18,9 +18,70 @@ export default function Team() {
     </h2>
     <p className={classes['desc']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-<div className={classes['Team-Sec']}>
-    
+{/* <div className={classes['Team-Sec']}>
+
+</div> */}
+<div className={classes['card']}>
+<div className={classes['shape']}>
+<Image 
+src={hamza}
+className={classes['image']}
+/>
 </div>
+<h5 className={classes['name']}>Hamza Shaukat</h5>
+<p className={classes['designation']}>Lead</p>
+</div>
+<div className={classes['card']}>
+<div className={classes['shape']}>
+<Image 
+src={img}
+className={classes['image']}
+/>
+</div>
+<h5 className={classes['name']}>Hamza Shaukat</h5>
+<p className={classes['designation']}>Lead</p>
+</div>
+<div className={classes['card']}>
+<div className={classes['shape']}>
+<Image 
+src={hamza}
+className={classes['image']}
+/>
+</div>
+<h5 className={classes['name']}>Hamza Shaukat</h5>
+<p className={classes['designation']}>Lead</p>
+</div>
+<div className={classes['card']}>
+<div className={classes['shape']}>
+<Image 
+src={hamza}
+className={classes['image']}
+/>
+</div>
+<h5 className={classes['name']}>Hamza Shaukat</h5>
+<p className={classes['designation']}>Lead</p>
+</div>
+<div className={classes['card']}>
+<div className={classes['shape']}>
+<Image 
+src={hamza}
+className={classes['image']}
+/>
+</div>
+<h5 className={classes['name']}>Hamza Shaukat</h5>
+<p className={classes['designation']}>Lead</p>
+</div>
+<div className={classes['card']}>
+<div className={classes['shape']}>
+<Image 
+src={hamza}
+className={classes['image']}
+/>
+</div>
+<h5 className={classes['name']}>Hamza Shaukat</h5>
+<p className={classes['designation']}>Lead</p>
+</div>
+
     {/* <div className={classes['col-5']}>
 
           <div className={classes['shape']}>
@@ -82,7 +143,11 @@ hamza
 </CardContent>
 </Card> */}
 </div>
-
+<div className={classes['About-btn']}>
+<button className={classes['btn']}>
+  View Full Team	&#8594;
+</button>
+</div>
     </div>
   )
 }

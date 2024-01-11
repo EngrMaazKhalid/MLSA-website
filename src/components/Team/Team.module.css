@@ -6,6 +6,7 @@
     justify-content: space-between; */
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .Team-div{
@@ -13,6 +14,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 2rem ;
     
 }
 .Upper{
@@ -20,7 +22,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     width: 100%;
 }
 .heading{
@@ -35,56 +37,87 @@
 
 }
 .Team-Sec{
+    display: flex;
+    flex-wrap: wrap;
     
 }
-.col-5{
-    flex: 0 0 auto;
-    width: 50%;
- text-align: center;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.headshot{
-height: 100%;
+
+.shape{
+    height: 25rem;
+    /* width: 24rem; */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+    float: left;
+   
+    border-radius: 25px;
+}
+.image{
+height: 100%; 
 width: 100%;
-transform: scale(1.43) translateY(4.19rem);
+ /* transform: scale(1.43) translateY(4.19rem);  */
 transition: all .2s;
 overflow: hidden;
-object-fit: contain;
+object-fit: cover;
+
+
 }
 .designation{
-    text-transform: uppercase!important;
+    text-transform: capitalize!important;
     /* color: black; */
     text-align: center!important;
     margin-top: 0.5rem!important;
-    font-size: 24px;
-    font-weight: 600
+    font-size: 1.8rem;
+    font-weight: 500
 }
 .name{
     /* font-family: Open Sans,sans-serif; */
-    text-transform: uppercase!important;
+    text-transform: capitalize!important;
     color: #55B4F3;
     text-align: center!important;
     margin-top: 0.5rem!important;
-    font-size: 24px;
+    font-size: 2.1rem;
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
+.About-btn{
+    margin-top: 4rem;
+}
+.btn{
+    background: #0B3253;
+    border: 2px solid #55B4F3;
+    padding: 8px 20px 8px 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all .5s ;
+    border-radius: 6px;
+}
+.btn:hover{
+    background: #55B4F3;
+    color: #0B3253;
+}
 
 @media (min-width: 768px){
-    .col-5{
+    .card{
         flex: 0 0 auto;
-    width: 33.33%;
+    width: 25%;
+    }
+    .Team-div{
+        gap: 3rem;
     }
 }
+@media (max-width: 550px){
+    .card{
+        width: 50%;
+    }
+}
+

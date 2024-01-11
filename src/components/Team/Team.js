@@ -1,5 +1,9 @@
 import React from 'react'
 import classes from './Team.module.css'
+// import { Card, CardContent, CardMedia, Typography } from '@mui/material'
+import Image from 'next/image'
+import Picture1 from '../../../public/Assets/Photos/Picture1.png'
+import img from './images.png'
 
 
 
@@ -8,7 +12,75 @@ export default function Team() {
     <div className={classes['Team']}>
     
     <div className={classes['Team-div']}>
+    <div className={classes['Upper']}>
+    <h2 className={classes['heading']}>
+    Core Team
+    </h2>
+    <p className={classes['desc']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+<div className={classes['Team-Sec']}>
+    
+</div>
+    {/* <div className={classes['col-5']}>
 
+          <div className={classes['shape']}>
+          <Image src={img} alt='image' className={classes['headshot']} />
+        </div>
+        <h6 className={classes['name']}>Hamza Shaukat</h6>
+            <h6 className={classes['designation']}>Lead</h6>
+           
+          </div> */}
+    {/* <div className={classes['col-5']}>
+
+          <div className={classes['shape']}>
+          <Image src={img} alt='image' className={classes['headshot']} />
+        </div>
+        <h6 className={classes['name']}>Hamza Shaukat</h6>
+            <h6 className={classes['designation']}>Lead</h6>
+           
+          </div>
+    <div className={classes['col-5']}>
+
+          <div className={classes['shape']}>
+          <Image src={img} alt='image' className={classes['headshot']} />
+        </div>
+        <h6 className={classes['name']}>Hamza Shaukat</h6>
+            <h6 className={classes['designation']}>Lead</h6>
+           
+          </div> */}
+
+
+
+    {/* <Card className={classes['card']} sx={{ background:'transparent', display:'flex', flexDirection:'column', flexWrap:'wrap' }}>
+<CardMedia
+  sx={{ height: '100%' }}
+  title="event"
+>
+<Image
+// src={item.img}
+src={Picture1}
+/>
+</CardMedia>
+<CardContent sx={{paddingLeft:'0'}}>
+  <Typography gutterBottom variant="h5" component="div" sx={{
+      color:'#55B4F3',
+      fontWeight:'600',
+      lineHeight:'28px',
+      fontSize:'2rem'
+  }}>
+hamza
+  </Typography>
+  <Typography variant="body2" sx={{
+      color:'#E0EFFE',
+      fontWeight:'400',
+      fontSize:'1.5rem',
+      lineHeight:'2.25rem'
+
+  }}>
+  lead
+  </Typography>
+</CardContent>
+</Card> */}
 </div>
 
     </div>

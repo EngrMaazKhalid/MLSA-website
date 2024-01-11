@@ -7,6 +7,8 @@ import About from "@/components/About/About";
 import Eventbar from "@/components/Eventbar/Eventbar";
 import Vision from "@/components/Vision/Vision";
 import Offer from "@/components/offer/Offer";
+import Team from "@/components/Team/Team";
+
 
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
     <Eventbar />
     <Vision />
     <Offer />
+    <Team />
     <Footer />
   </main>
   )

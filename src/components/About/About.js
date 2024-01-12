@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import classes from './About.module.css'
 // import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
@@ -7,18 +8,23 @@ import Picture1 from '../../../public/Assets/Photos/Picture1.png'
 
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 const About =() =>{
 
  return(
-    <div className={classes['About']}>  
+   
+   <div className={classes['About']}>  
+   <Fade direction="up" triggerOnce>
     <div className={classes['About-div']}>
     <div className={classes['About-img']}>
         {/* <div className={classes['img']} /> */}
+       
         <Image 
         src={Picture1}
         className={classes['img']}
         />
+      
     </div>
     <div className={classes['About-main']}>
     <h2 className={classes['About-heading']}>
@@ -36,7 +42,7 @@ const About =() =>{
     </div>
 
  </div>
-
+ </Fade>
    </div>
 
  )

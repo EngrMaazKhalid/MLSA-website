@@ -1,6 +1,7 @@
 .Eventbar{
     height: 100%;
-    margin: 8rem 6rem;
+    margin: 14rem 6rem;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;

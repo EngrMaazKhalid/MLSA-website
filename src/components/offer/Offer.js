@@ -1,13 +1,17 @@
+"use client"
+
 import React from 'react'
 import classes from './Offer.module.css'
 import linkedin from '../../../public/Assets/Photos/linkedin.png'
 import swag from '../../../public/Assets/Photos/swag.png'
 import Image from 'next/image'
+import { Fade } from 'react-awesome-reveal'
 
 
 export default function Offer() {
   return (
     <div className={classes['Offer']}>
+    <Fade direction="right" triggerOnce> 
     <div className={classes['Offer-div']}>
         <div className={classes['Offer-left']}>
     <Image
@@ -48,6 +52,7 @@ export default function Offer() {
         </div>
     </div>
     </div>
+    </Fade>
     </div>
   )
 }

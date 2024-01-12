@@ -1,37 +1,37 @@
+"use client"
 import React from 'react'
 import classes from './Team.module.css'
 // import { Card, CardContent, CardMedia, Typography } from '@mui/material'
 import Image from 'next/image'
-import Picture1 from '../../../public/Assets/Photos/Picture1.png'
-import img from './images.png'
-import hamza from './hamzaaa.jpg'
 
+import { Data } from '../../../public/Data';
+import { Fade } from 'react-awesome-reveal';
 
 export default function Team() {
   return (
     <div className={classes['Team']}>
-    
+  <Fade direction="left" triggerOnce>   
     <div className={classes['Team-div']}>
     <div className={classes['Upper']}>
     <h2 className={classes['heading']}>
     Core Team
     </h2>
-    <p className={classes['desc']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p className={classes['desc']}>Introducing the Faces Behind MLSA-UETT</p>
     </div>
 {/* <div className={classes['Team-Sec']}>
 
 </div> */}
-<div className={classes['card']}>
+{Data.teamMembers.map( (item) =>( <div key={item.id} className={classes['card']}>
 <div className={classes['shape']}>
 <Image 
-src={hamza}
+src={item.img}
 className={classes['image']}
 />
 </div>
-<h5 className={classes['name']}>Hamza Shaukat</h5>
-<p className={classes['designation']}>Lead</p>
-</div>
-<div className={classes['card']}>
+<h5 className={classes['name']}>{item.name}</h5>
+<p className={classes['designation']}>{item.rank} </p>
+</div>))}
+{/* <div className={classes['card']}>
 <div className={classes['shape']}>
 <Image 
 src={img}
@@ -80,7 +80,7 @@ className={classes['image']}
 </div>
 <h5 className={classes['name']}>Hamza Shaukat</h5>
 <p className={classes['designation']}>Lead</p>
-</div>
+</div> */}
 
     {/* <div className={classes['col-5']}>
 
@@ -148,6 +148,7 @@ hamza
   View Full Team	&#8594;
 </button>
 </div>
+</Fade>
     </div>
   )
 }

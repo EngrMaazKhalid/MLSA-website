@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -9,13 +10,14 @@ import classes from './Eventbar.module.css'
 import { Data } from '../../../public/Data';
 import event from '../../../public/Assets/Photos/event1.png'
 import Image from 'next/image';
+import { Fade } from 'react-awesome-reveal';
 
 
 export default function Eventbar() {
   return (
     <div className={classes['Eventbar']}>
 
-
+<Fade direction="up" triggerOnce>
     <div className={classes['Upper']}>
     <div className={classes['Upper-head']}>
 
@@ -26,9 +28,11 @@ export default function Eventbar() {
         <button className={classes['see-btn']}>See all</button>
         </div>
     </div>
+</Fade>
+<Fade direction="up" triggerOnce>  
     <div className={classes['Card-sec']}>
    
-  
+    
 { Data.Events.map( (item) => ( <Card key={item.id} className={classes['card']} sx={{ background:'transparent', display:'flex', flexDirection:'column', flexWrap:'wrap' }}>
 <CardMedia
   sx={{ height: '100%' }}
@@ -63,6 +67,7 @@ Read more 	&#8594;
 </button>
 </CardActions>
 </Card>))}
+
     {/* <Card className={classes['card']} sx={{ background:'transparent', display:'flex', flexDirection:'column', flexWrap:'wrap' }}>
       <CardMedia
         sx={{ height: '100%' }}
@@ -138,7 +143,7 @@ Read more 	&#8594;
    
    
     </div>
-
+</Fade>
 
     </div>
   )

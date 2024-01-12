@@ -1,9 +1,13 @@
+"use client"
 import React from 'react'
 import classes from './Vision.module.css'
+import { Fade } from 'react-awesome-reveal'
 export default function Vision() {
   return (
     <div className={classes['Vision']}>
+    <Fade direction="left" triggerOnce> 
     <div className={classes['Vision-div']}>
+    
        <div className={classes['Vision-left']}>
         <div className={classes['Vision-main']}>
     <h2 className={classes['heading']}>Our vision</h2>
@@ -18,6 +22,7 @@ export default function Vision() {
     </p>
         </div>
         </div>
+        
         <div className={classes['box-div']}>
             <div className={classes['box']}>
     
@@ -40,7 +45,7 @@ export default function Vision() {
         </div>
 
     </div>
-
+</Fade>
     </div>
   )
 }

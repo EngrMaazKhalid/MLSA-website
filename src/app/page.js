@@ -8,6 +8,7 @@ import Eventbar from "@/components/Eventbar/Eventbar";
 import Vision from "@/components/Vision/Vision";
 import Offer from "@/components/offer/Offer";
 import Team from "@/components/Team/Team";
+import Contact from "@/components/Contact/Contact";
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
     <Vision />
     <Offer />
     <Team />
+    <Contact />
     <Footer />
   </main>
   )

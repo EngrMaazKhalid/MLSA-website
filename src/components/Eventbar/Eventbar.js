@@ -5,9 +5,9 @@ import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import {Pagination, Navigation, Autoplay , Mousewheel, Keyboard} from "swiper/modules";
 // import './styles.css';
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -45,8 +45,16 @@ export default function Eventbar() {
         pagination={{
           clickable: true,
         }}
-        
-        modules={[Pagination]}
+        mousewheel={true}
+   keyboard={true}
+   loop={true}
+        autoplay={{
+         delay: 1200,   
+        }}
+        navigation={false}
+        modules={[ Navigation,Pagination, Autoplay, Mousewheel, Keyboard]}
+      
+       
         className={classes['swiper']}
       
         // className="mySwiper"

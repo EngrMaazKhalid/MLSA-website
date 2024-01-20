@@ -1,4 +1,11 @@
 import event1 from './Assets/Photos/event1.png'
+import event2 from './Assets/Photos/event2.jpg'
+import event3 from './Assets/Photos/event3.jpg'
+import event4 from './Assets/Photos/event4.jpg'
+import event5 from './Assets/Photos/event5.jpg'
+import event6 from './Assets/Photos/event6.jpg'
+import event7 from './Assets/Photos/event7.jpg'
+import event8 from './Assets/Photos/event8.jpg'
 import hamza from './Assets/Photos/Team/Hamzaaa.jpg'
 import ayesha from './Assets/Photos/Team/ayesha.jpg'
 import chaudhary from './Assets/Photos/Team/Chaudhary.jpg'
@@ -26,21 +33,57 @@ export const Data={
     {
         id:0,
         name:'HactoberFest 23',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.Lorem ipsum dolor.',
+        desc:`Conducted on October 25th, 2023 MLSA-UETT's vibrant session on open-source contributions featuring speakers Kiran Amin Panjwani and Arsalan Khattak. Empowering students to connect, collaborate, and contribute to the global open-source community.`,
         img: event1,
     },
     {
         id: '01',
-        name:'HactoberFest 23',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.Lorem ipsum dolor.',
-        img: event1,
+        name:'Machine Learning with Microsoft Employee',
+        desc:`MLSU-UETT successfully conducted an immersive session on August 5th, 2023, titled 'IML 1.1: Introduction to Machine Learning,' with Mr. Omar Barakat, ML Engineer at Microsoft, Cairo, Egypt.`,
+        img: event2,
     },
     {
         id: '02',
-        name:'HactoberFest 23',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.Lorem ipsum dolor.',
-        img: event1,
-    }
+        name:'Azure AI Challenge3',
+        desc:`Elevate your AI skills with the MLSA-UETT Azure AI Skills Challenge! 🚀 Complete modules to win LinkedIn Premium, Xbox Voucher, and earn trophies and badges.`,
+        img: event3,
+    },
+    {
+        id: '03',
+        name:'Interviews and Core Team Inductions',
+        desc:`After extensive interviews across the campus, The Microsoft Learn Student Ambassador of UET Taxila is thrilled to announce the Core Team for 2023-2024!`,
+        img: event4,
+    },
+    {
+        id: '04',
+        name:'MLSA UETT Orientation',
+        desc:`The Orientation of MLSA-UETT took place on March 1st, 2023, at the Software Engineering Department, UET Taxila. Attendees had the opportunity to learn about entering the Microsoft Student Ambassadors community and growing alongside these technical ambassadors.`,
+        img: event5,
+    },
+    {
+        id: '05',
+        name:'Introduction to Quantum Computing',
+        desc:`Dive into Quantum Computing with the 'Introduction to Quantum Computing' session featuring Beta MLSA Nadeem Akhter from Kardan University, Afghanistan!`,
+        img: event6,
+    },
+    {
+        id: '06',
+        name:'Azure Fundamentals Challenge',
+        desc:'Complete the Azure Fundamentals Challenge by October 21, and win Linkedin premium and exciting awards.',
+        img: event7,
+    },
+    {
+        id: '07',
+        name:'Introduction to Azure Fundamentals',
+        desc:`Discover Azure fundamentals with our Beta Ambassador. Join us for an enlightening session on the essentials of Azure.`,
+        img: event8,
+    },
+    {
+        id: '07',
+        name:'Introduction to Azure Fundamentals',
+        desc:`Discover Azure fundamentals with our Beta Ambassador. Join us for an enlightening session on the essentials of Azure.`,
+        img: event8,
+    },
  ],
  teamMembers : [
     {

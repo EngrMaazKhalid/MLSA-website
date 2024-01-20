@@ -1,7 +1,6 @@
 .Eventbar{
     height: 100%;
     margin: 14rem 6rem;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,7 +22,10 @@
     font-weight: 400;
 
 }
-
+.img{
+    object-fit: cover;
+    height: 100%;
+}
 .see-btn{
     background: #0B3253;
     border: 2px solid #55B4F3;
@@ -39,18 +41,16 @@
     background-color: #55B4F3;
     color: #0B3253;
 }
+
+
 .Card-sec{
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 1rem;
-    flex-direction: row;
-}
-
-.card{
-    width: 30%;
+    gap: 2rem;
+    flex-direction: column;
 }
 .btn{
     background: #0B3253;
@@ -66,7 +66,16 @@
     background: #55B4F3;
     color: #0B3253;
 }
-
+.SwiperSlide{
+    /* width: 30%; */
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 992px){
+    .Card-sec{
+        display: none;
+    }
+}
 @media (max-width: 992px){
     .Eventbar{
         margin-top: 6rem;
@@ -88,22 +97,33 @@
         text-align: center;
         margin-bottom: 1.5rem;
     }
-    .Card-sec{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
+    .swiper{
+        display: none;
     }
+    .Card-sec{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        flex-direction: column;
+    }
+
     .card{
-        width: 60%;
+        width: 50%;
     }
 
 }
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
 @media (max-width: 720px){
 .card{
     width: 80%;
 }
-}
+} 
 @media (max-width: 420px){
 .card{
     width: 100%;

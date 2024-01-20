@@ -32,7 +32,7 @@ const About =() =>{
     </h2>
     <div className={classes['About-des']}>
         <p className={classes['para']}>Welcome to the MLSA UETT, where passion for technology meets a commitment to personal and collective growth. We are a community of students dedicated to exploring the vast potential of Microsoft technologies, empowering ourselves and others to make a meaningful impact on the world.</p>
-        <p className={classes['para']}>Together, we foster a welcoming and inclusive environment where diversity and inclusion are celebrated ...</p>
+        <p className={classes['para']}>Our purpose as the MLSA society is to establish a collaborative presence within UET Taxila. This enables Ambassadors selected directly from Microsoft to work together and collaborate for the betterment of the local community. This collective effort empowers ambassadors to achieve tasks that may be challenging with solo participation, unlocking new possibilities as a united team ...”</p>
     </div>
 <div className={classes['About-btn']}>
 <button className={classes['btn']}>

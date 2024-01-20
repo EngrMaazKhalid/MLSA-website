@@ -12,8 +12,7 @@ export default function Vision() {
         <div className={classes['Vision-main']}>
     <h2 className={classes['heading']}>Our vision</h2>
     <p className={classes['desc']}>
-    We are a technical society that empowers students who are passionate about Microsoft technologies to solve real-world problems and make a positive impact on the world.
-    </p>
+    Our vision at MLSA is to create a collaborative presence in UET Taxila, fostering teamwork among Ambassadors selected directly from Microsoft. Together, we strive for the betterment of the local community, enabling ambassadors to achieve more collectively than they could individually.  </p>
         </div>
         <div className={classes['Vision-main1']}>
     <h2 className={classes['heading']}>Our Mission</h2>

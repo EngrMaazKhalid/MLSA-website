@@ -25,21 +25,21 @@ export default function Contact() {
 <div className={classes['Contact-left']}>
 <div  className={classes['box']}>
 
-<MailIcon className={classes['number']} />
+<MailIcon sx={{fontSize:'2.3rem'}} className={classes['number']} />
 <a href='mailto:mlsa_uettaxila@outlook.com'>
     <div className={classes['box-heading']}>mlsa_uettaxila@outlook.com</div>
 </a>
 </div>
 <div  className={classes['box']}>
 
-<PhoneIcon className={classes['number']} />
+<PhoneIcon sx={{fontSize:'2.3rem'}}  className={classes['number']} />
 
     <div className={classes['box-heading']}>+1 (555) 000-0000</div>
 
 </div>
 <div  className={classes['box']}>
 
-<LocationOnIcon className={classes['number']} />
+<LocationOnIcon  sx={{fontSize:'2.3rem'}}  className={classes['number']} />
 
     <div className={classes['box-heading']}>UET Taxila</div>
 
@@ -70,7 +70,7 @@ export default function Contact() {
 </div>
 <div className={classes['Form-bar2']}>
 <button className={classes['btn']}>
- Send	<SendIcon />
+ Send	<SendIcon sx={{fontSize:'2.3rem'}}/>
 </button>
 </div>
 

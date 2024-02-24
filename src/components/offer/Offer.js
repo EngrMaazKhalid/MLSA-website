@@ -46,7 +46,7 @@ export default function Offer() {
         <div className={classes['symbol']}>  &#10004; </div> <p className={classes['credits']}>Certificates</p>
         </div>
         <div className={classes['tick']}>
-        <div className={classes['symbol']}>  &#10004; </div> <p className={classes['credits']}>lorem ipsum</p>
+        <div className={classes['symbol']}>  &#10004; </div> <p className={classes['credits']}>Xbox Gamepass</p>
         </div>
         </div>
         </div>

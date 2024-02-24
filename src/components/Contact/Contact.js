@@ -18,7 +18,7 @@ export default function Contact() {
 <div className={classes['Contact-div']}>
     <div className={classes['Upper']}>
     <h2 className={classes['heading']}>Get in Touch</h2>
-        <p className={classes['desc']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p className={classes['desc']}>Have something to share with us?<br /> Or looking for a potential collaboration?<br />  Get in touch with the minds behind MLSA-UET. </p>
         
 </div>
 <div className={classes['Contact-down']}>
@@ -26,15 +26,15 @@ export default function Contact() {
 <div  className={classes['box']}>
 
 <MailIcon sx={{fontSize:'2.3rem'}} className={classes['number']} />
-<a href='mailto:mlsa_uettaxila@outlook.com'>
-    <div className={classes['box-heading']}>mlsa_uettaxila@outlook.com</div>
+<a href='mailto:mlsauettaxila@gmail.com'>
+    <div className={classes['box-heading']}>mlsauettaxila@gmail.com</div>
 </a>
 </div>
 <div  className={classes['box']}>
 
 <PhoneIcon sx={{fontSize:'2.3rem'}}  className={classes['number']} />
 
-    <div className={classes['box-heading']}>+1 (555) 000-0000</div>
+    <div className={classes['box-heading']}>+92 304 4197010</div>
 
 </div>
 <div  className={classes['box']}>

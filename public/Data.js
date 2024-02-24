@@ -6,6 +6,12 @@ import event5 from './Assets/Photos/event5.jpg'
 import event6 from './Assets/Photos/event6.jpg'
 import event7 from './Assets/Photos/event7.jpg'
 import event8 from './Assets/Photos/event8.jpg'
+import event9 from './Assets/Photos/event9.jpg'
+import event10 from './Assets/Photos/event10.jpg'
+import event11 from './Assets/Photos/event11.jpg'
+import event12 from './Assets/Photos/event12.jpg'
+import event13 from './Assets/Photos/event13.jpg'
+
 import hamza from './Assets/Photos/Team/Hamzaaa.jpg'
 import ayesha from './Assets/Photos/Team/ayesha.jpg'
 import chaudhary from './Assets/Photos/Team/Chaudhary.jpg'
@@ -25,6 +31,8 @@ import saleh from './Assets/Photos/Team/saleh.jpg'
 import momina from './Assets/Photos/Team/momina.jpg'
 import moazzam from './Assets/Photos/Team/moazzam.jpg'
 import ahmed from './Assets/Photos/Team/ahmed.jpg'
+import MaryamS from './Assets/Photos/Team/MaryamS.jpg'
+import HamzaI from './Assets/Photos/Team/HamzaI.jpg'
 
 
 
@@ -79,11 +87,36 @@ export const Data={
         img: event8,
     },
     {
-        id: '07',
-        name:'Introduction to Azure Fundamentals',
-        desc:`Discover Azure fundamentals with our Beta Ambassador. Join us for an enlightening session on the essentials of Azure.`,
-        img: event8,
+        id: '08',
+        name:'Azure and its uses',
+        desc:`Diving into the world of Cloud with Microsoft Azure. Newly selected ambassador Laiba Maryam initates her journey with MLSA-UETT, hosting Beta Ambassador from NUML University.`,
+        img: event9,
     },
+    {
+        id: '09',
+        name:'LeadHers',
+        desc:`Forget the stereotypes, it's time to Rewrite The Code! ✨ LeadHers is where tech-savvy women unite to learn, collaborate, and conquer the digital frontier. Join us and become part of a network of brilliant women empowering women to lead the tech revolution.`,
+        img: event10,
+    },
+    {
+        id: '10',
+        name:'LeadHer with MLSA Gold',
+        desc:`Unleash the Power Within: Mastering the Microsoft Platform with LeadHers!  Hosting MLSA Gold, Neha Hafeez.Get hands-on with expert-led sessions that'll unlock the full potential of the Microsoft Platform and boost your career.`,
+        img: event11,
+    },
+    {
+        id: '11',
+        name:'Secure The Cloud',
+        desc:`Safety, assurance and surveillance: consider it guarded. Be part of discovering the approach to safe guard data, the famous practice cloud providers adopt along with the hands-on demo of their working with GCP Platform, Azure and AWS.`,
+        img: event12,
+    },
+    {
+        id: '12',
+        name:'Unlocking Opportunities Abroad',
+        desc:`Join us on a transformative journey where innovation, education, and entrepreneurship converge in an enlightening event hosted by our MLSA Ambassador, Wajeeha Usman. We’ll be hosting Dr. Zafar Shahid, a renowned industry and academia expert who has previously served as the Technical Lead at Meta and Nvidia.`,
+        img: event13,
+    },
+  
  ],
  teamMembers : [
     {
@@ -199,7 +232,19 @@ export const Data={
       name: 'Laiba',
       rank: 'Alpha Ambassador',
       img: laiba
-    }
+    },
+    {
+      id: '19',
+      name: 'Maryam Sarfraz',
+      rank: 'Alpha Ambassador',
+      img: MaryamS
+    },
+    {
+      id: '19',
+      name: 'Hamza Iftikhar',
+      rank: 'Alpha Ambassador',
+      img: HamzaI
+    },
   ]
   
   // Add more members following the same pattern
